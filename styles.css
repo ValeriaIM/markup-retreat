@@ -1,4 +1,8 @@
 /* Пиши стили тут */
-spam:hover{
-    background: darkorange;
+div:hover{
+    color: orange;
+}
+
+span:hover ~ span{
+    color: black;
 }
